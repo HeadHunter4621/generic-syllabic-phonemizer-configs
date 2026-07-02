@@ -1,0 +1,53 @@
+%YAML 1.2
+---
+  # This dictionary is meant to be modified (such as adding and removing phonemes) to fit the voicebank that is using it.
+  # The existing set of phonemes are just examples.
+
+symbols:
+  # Vowels
+  - { symbol: a, type: vowel }
+  - { symbol: i, type: vowel }
+  - { symbol: u, type: vowel }
+  - { symbol: e, type: vowel }
+  - { symbol: o, type: vowel }
+  - { symbol: N, type: vowel }
+
+  # Consonants
+  - {symbol: b, type: stop}
+  - {symbol: by, type: stop}
+  - {symbol: ch, type: affricate}
+  - {symbol: d, type: stop}
+  - {symbol: dy, type: stop}
+  - {symbol: f, type: fricative}
+  - {symbol: g, type: stop}
+  - {symbol: gy, type: stop}
+  - {symbol: h, type: aspirate}
+  - {symbol: hy, type: aspirate}
+  - {symbol: j, type: affricate}
+  - {symbol: k, type: stop}
+  - {symbol: ky, type: stop}
+  - {symbol: m, type: nasal}
+  - {symbol: my, type: nasal}
+  - {symbol: n, type: nasal}
+  - {symbol: ny, type: nasal}
+  - {symbol: p, type: stop}
+  - {symbol: py, type: stop}
+  - {symbol: r, type: liquid}
+  - {symbol: ry, type: liquid}
+  - {symbol: s, type: fricative}
+  - {symbol: sh, type: fricative}
+  - {symbol: t, type: stop}
+  - {symbol: ts, type: affricate}
+  - {symbol: ty, type: stop}
+  - {symbol: v, type: fricative}
+  - {symbol: w, type: semivowel}
+  - {symbol: y, type: semivowel}
+  - {symbol: z, type: fricative}
+
+  # Other
+  - {symbol: q, type: stop}
+  - {symbol: cl, type: stop}
+
+entries:
+  - grapheme: openutau
+    phonemes: [o, p, e, N, u, t, a, u]
